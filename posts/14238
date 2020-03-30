@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="中层管理人员年度工作评价, 人力资源管理,招聘,hr,hrbp">
-    <meta name="description" content="中层管理人员年度评价，利用电子问卷的形式进行匿名评价">
+    <meta name="keywords" content="员工老年父母护理假, 人力资源管理,招聘,hr,hrbp">
+    <meta name="description" content="相关法律法规及管理制度">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>中层管理人员年度工作评价 | HZGHR</title>
+    <title>员工老年父母护理假 | HZGHR</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -303,12 +303,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">中层管理人员年度工作评价</h1>
+                    <h1 class="description center-align post-title">员工老年父母护理假</h1>
                 </div>
             </div>
         </div>
@@ -318,105 +318,10 @@
 
 
 
-<main class="post-container content">
+<main class="container content">
 
     
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
-<style>
-    #articleContent h1::before,
-    #articleContent h2::before,
-    #articleContent h3::before,
-    #articleContent h4::before,
-    #articleContent h5::before,
-    #articleContent h6::before {
-        display: block;
-        content: " ";
-        height: 100px;
-        margin-top: -100px;
-        visibility: hidden;
-    }
-
-    #articleContent :focus {
-        outline: none;
-    }
-
-    .toc-fixed {
-        position: fixed;
-        top: 64px;
-    }
-
-    .toc-widget {
-        width: 345px;
-        padding-left: 20px;
-    }
-
-    .toc-widget .toc-title {
-        margin: 35px 0 15px 0;
-        padding-left: 17px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-
-    .toc-widget ol {
-        padding: 0;
-        list-style: none;
-    }
-
-    #toc-content {
-        height: calc(100vh - 250px);
-        overflow: auto;
-    }
-
-    #toc-content ol {
-        padding-left: 10px;
-    }
-
-    #toc-content ol li {
-        padding-left: 10px;
-    }
-
-    #toc-content .toc-link:hover {
-        color: #42b983;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    #toc-content .toc-link::before {
-        background-color: transparent;
-        max-height: 25px;
-    }
-
-    #toc-content .is-active-link {
-        color: #42b983;
-    }
-
-    #toc-content .is-active-link::before {
-        background-color: #42b983;
-    }
-
-    #floating-toc-btn {
-        position: fixed;
-        right: 15px;
-        bottom: 76px;
-        padding-top: 15px;
-        margin-bottom: 0;
-        z-index: 998;
-    }
-
-    #floating-toc-btn .btn-floating {
-        width: 48px;
-        height: 48px;
-    }
-
-    #floating-toc-btn .btn-floating i {
-        line-height: 48px;
-        font-size: 1.4rem;
-    }
-</style>
-<div class="row">
-    <div id="main-content" class="col s12 m12 l9">
-        <!-- 文章内容详情 -->
+    <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -425,8 +330,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E7%BB%A9%E6%95%88%E7%AE%A1%E7%90%86/">
-                                <span class="chip bg-color">绩效管理</span>
+                            <a href="/tags/%E5%88%B6%E5%BA%A6%E5%BB%BA%E8%AE%BE/">
+                                <span class="chip bg-color">制度建设</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/">
+                                <span class="chip bg-color">法律法规</span>
                             </a>
                         
                     </div>
@@ -437,8 +346,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E7%BB%A9%E6%95%88%E7%AE%A1%E7%90%86/" class="post-category">
-                                绩效管理
+                            <a href="/categories/%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/" class="post-category">
+                                法律法规
                             </a>
                         
                     </div>
@@ -450,7 +359,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-01-09
+                    2019-01-01
                 </div>
                 
 
@@ -459,14 +368,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.9k
+                    546
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    6 分
+                    2 分
                 </div>
                 
 				
@@ -478,358 +387,20 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
-<p>背景简介：四季度结束后，为了解基层员工对中层管理人员的看法，同时对中层管理人员绩效评估提供参考，人事利用电子问卷，采取匿名评价的方式，进行全员评价。被评价者6人，公司人数36人，有效填写人数34人，有效参与率95% 。</p>
+<p>2018年7月26日四川省第十三届人民代表大会常务委员会第五次会议通过《四川省老年人权益保障条例》，其中第三章第三十条，将员工老年父母护理假做了定量定性描述，让企业在执行过程中有法可依。除四川外，国内其他省份也发布了相关的规定，在老年化愈发严重的现实情况下，给予员工老年父母护理假，是社会和企业人文关怀的体现。</p>
 </blockquote>
-<br> 
-
-<h1 id="一、实现方式"><a href="#一、实现方式" class="headerlink" title="一、实现方式"></a>一、实现方式</h1><h2 id="（一）需求分解"><a href="#（一）需求分解" class="headerlink" title="（一）需求分解"></a>（一）需求分解</h2><p>本次调查使用的平台和工具需要满足两个需求：</p>
+<h1 id="一、法律法规"><a href="#一、法律法规" class="headerlink" title="一、法律法规"></a>一、法律法规</h1><p><strong>第三章第三十条原文：“老年人患病住院期间不能自理的，其子女所在用人单位应当给予独生子女每年累计不超过十五日的护理照料时间，给予非独生子女每年累计不超过七日的护理照料时间。用人单位应当依法通过集体协商或者制定规章制度等形式确定护理照料时间。护理照料期间工资福利待遇不变。”</strong></p>
+<p>附全文预览（点击放大图片查看）：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/img/%E5%9B%9B%E5%B7%9D%E7%9C%81%E8%80%81%E5%B9%B4%E4%BA%BA%E4%BF%9D%E6%8A%A4%E6%9D%A1%E4%BE%8B.png" alt=""></p>
+<h1 id="二、管理制度"><a href="#二、管理制度" class="headerlink" title="二、管理制度"></a>二、管理制度</h1><p><strong>根据第一章第二条：“本条例所称老年人是指六十周岁以上的公民”，限制员工父母年龄须大于等于60周岁。</strong></p>
+<p>根据第三章第三十条，限制休假条件为<strong>“患病住院期间不能自理”</strong>，企业可适当放宽条件；限制使用对象为<strong>“子女”</strong>，因此，不适用于岳父岳母、爷爷奶奶等亲属关系；限制累计时长，独生子女与非独生子女累计时长相差一倍，因此，<strong>独生子女员工须提供独生子女证明</strong>以享受更长的休假时长。</p>
+<p>附本人制订的企业员工父母护理假管理办法：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/img/%E5%91%98%E5%B7%A5%E7%88%B6%E6%AF%8D%E6%8A%A4%E7%90%86%E5%81%87%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.png" alt=""></p>
 <blockquote>
-<ol>
-<li>支持匿名模式；</li>
-<li>支持赋予不同的题目以不同的分值占比；</li>
-<li>支持赋予同一个题目下的不同选项以不同的分值；</li>
-<li>支持跳转，以便连续评价；</li>
-<li>支持限制答题次数及渠道，以防止刷票的现象；</li>
-<li>能够自动处理统计数据，导出分析结果。</li>
-</ol>
+<p>法律法规 PDF版 下载链接： <a href="https://www.lanzous.com/b09qvzahe" target="_blank" rel="noopener">https://www.lanzous.com/b09qvzahe</a></p>
 </blockquote>
-<p>经过对比，本次问卷调查选择了<strong>问卷星企业版</strong>作为调查工具。</p>
-<h2 id="（二）问卷设计"><a href="#（二）问卷设计" class="headerlink" title="（二）问卷设计"></a>（二）问卷设计</h2><p>问卷内容主要包含三个方面：<strong>个人素养、工作能力、看法建议</strong>，利用了问卷星企业版的<strong>评分单选</strong>来赋值，采取随机选项排序的方式来规避惯性思维进行选择的风险，利用设备限制、IP限制、强制微信中打开及微信登录等方式限制填写次数，力求提高结果的真实性。</p>
-<p><strong>连续答题功能是通过提交后跳转自定义URL</strong>实现的，看上去只有一个二维码一个问卷，实际上是6个问卷，一个跳转一个的累加起来的，底部跳转提示语手动设置为 “当前评价进度2/6，即将评价第 3 位”，以此告知评价人当前的进度。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/img/%E9%97%AE%E5%8D%B7%E6%98%9F%E4%BC%81%E4%B8%9A%E7%89%88_%E8%AF%84%E5%88%86%E5%8D%95%E9%80%89.png" alt="问卷星企业版_评分单选"></p>
-<p><br><strong>第1题  他的民主性如何？（是否乐于广泛听取意见，尊重他人想法和观点？）   [单选题]  [5分]</strong></p>
-<table>
-<thead>
-<tr>
-<th align="center">选项</th>
-<th align="center">赋值（分数）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">工作质量无懈可击，非常优秀</td>
-<td align="center">5</td>
-</tr>
-<tr>
-<td align="center">工作质量在要求以上，表现较好</td>
-<td align="center">4</td>
-</tr>
-<tr>
-<td align="center">工作质量符合要求</td>
-<td align="center">3</td>
-</tr>
-<tr>
-<td align="center">在保持质量方面偶尔有误差</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">工作质量难以保证，经常有误差</td>
-<td align="center">1</td>
-</tr>
-</tbody></table>
-<p> <strong>第2题  他的工作作风如何？   [单选题] [5分]</strong></p>
-<table>
-<thead>
-<tr>
-<th align="center">选项</th>
-<th align="center">赋值（分数）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">谦虚谨慎，能坚持真理，修正错误</td>
-<td align="center">5</td>
-</tr>
-<tr>
-<td align="center">坚持实事求是原则</td>
-<td align="center">4</td>
-</tr>
-<tr>
-<td align="center">尚能实事求是</td>
-<td align="center">3</td>
-</tr>
-<tr>
-<td align="center">作风浮夸，人云亦云</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">表里不一，阳奉阴违</td>
-<td align="center">1</td>
-</tr>
-</tbody></table>
-<p><strong>第3题  他的工作效率如何？   [单选题] [10分]</strong></p>
-<table>
-<thead>
-<tr>
-<th align="center">选项</th>
-<th align="center">赋值（分数）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">速度超群，超前完成</td>
-<td align="center">10</td>
-</tr>
-<tr>
-<td align="center">速度在标准以上，提前完成</td>
-<td align="center">8</td>
-</tr>
-<tr>
-<td align="center">速度符合标准，按时完成</td>
-<td align="center">6</td>
-</tr>
-<tr>
-<td align="center">速度距离标准还差一步，略晚于计划完成</td>
-<td align="center">4</td>
-</tr>
-<tr>
-<td align="center">离时间要求相差甚远，拖延，迟迟未完成</td>
-<td align="center">2</td>
-</tr>
-</tbody></table>
-<p><strong>第4题  他的工作质量如何？   [单选题] [10分]</strong></p>
-<table>
-<thead>
-<tr>
-<th align="center">选项</th>
-<th align="center">赋值（分数）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">工作质量无懈可击，非常优秀</td>
-<td align="center">10</td>
-</tr>
-<tr>
-<td align="center">工作质量在要求以上，表现较好</td>
-<td align="center">8</td>
-</tr>
-<tr>
-<td align="center">工作质量符合要求</td>
-<td align="center">6</td>
-</tr>
-<tr>
-<td align="center">在保持质量方面偶尔有误差</td>
-<td align="center">4</td>
-</tr>
-<tr>
-<td align="center">工作质量难以保证，经常有误差</td>
-<td align="center">2</td>
-</tr>
-</tbody></table>
-<p> <strong>第5题  他的工作责任心如何？   [单选题] [5分]</strong></p>
-<table>
-<thead>
-<tr>
-<th align="center">选项</th>
-<th align="center">赋值（分数）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">自觉主动对自己的行为及后果负责，愿意承担更多任务</td>
-<td align="center">5</td>
-</tr>
-<tr>
-<td align="center">如无责任分摊，则能正常沟通、协作</td>
-<td align="center">4</td>
-</tr>
-<tr>
-<td align="center">没有突出的表现，但能与他人勉强沟通、协作</td>
-<td align="center">3</td>
-</tr>
-<tr>
-<td align="center">在某些时间和场合，难以沟通，协调性差</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">与他人难以沟通、协作</td>
-<td align="center">1</td>
-</tr>
-</tbody></table>
-<p><strong>第6题  他的沟通协调能力如何？   [单选题] [20分]</strong></p>
-<table>
-<thead>
-<tr>
-<th align="center">选项</th>
-<th align="center">赋值（分数）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">工作质量无懈可击，非常优秀</td>
-<td align="center">20</td>
-</tr>
-<tr>
-<td align="center">工作质量在要求以上，表现较好</td>
-<td align="center">16</td>
-</tr>
-<tr>
-<td align="center">工作质量符合要求</td>
-<td align="center">12</td>
-</tr>
-<tr>
-<td align="center">在保持质量方面偶尔有误差</td>
-<td align="center">8</td>
-</tr>
-<tr>
-<td align="center">工作质量难以保证，经常有误差</td>
-<td align="center">4</td>
-</tr>
-</tbody></table>
-<p><strong>第7题  他的工作进取心如何？   [单选题] [5分]</strong></p>
-<table>
-<thead>
-<tr>
-<th align="center">选项</th>
-<th align="center">赋值（分数）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">总是勇于争先，工作充满激情</td>
-<td align="center">5</td>
-</tr>
-<tr>
-<td align="center">有时乐于争先，工作较有激情</td>
-<td align="center">4</td>
-</tr>
-<tr>
-<td align="center">对所办的事情，基本上有办好的愿望</td>
-<td align="center">3</td>
-</tr>
-<tr>
-<td align="center">对于执行工作要求缺乏积极性</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">完全不领会工作要求，缺乏积极性</td>
-<td align="center">1</td>
-</tr>
-</tbody></table>
-<p><strong>第8题  他的工作纪律性如何？   [单选题] [5分]</strong></p>
-<table>
-<thead>
-<tr>
-<th align="center">选项</th>
-<th align="center">赋值（分数）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">不仅能遵守规章制度，而且能以身作则为形成良好的工作秩序而努力</td>
-<td align="center">5</td>
-</tr>
-<tr>
-<td align="center">能较好地遵守各项规章制度，维持公共场所的秩序</td>
-<td align="center">4</td>
-</tr>
-<tr>
-<td align="center">大体上遵守规章制度，不服从命令的事偶尔发生</td>
-<td align="center">3</td>
-</tr>
-<tr>
-<td align="center">不遵守规章制度，不服从命令的事时有发生</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">经常发生不遵守规章制度，不守纪律的事</td>
-<td align="center">1</td>
-</tr>
-</tbody></table>
-<p><strong>第9题 他的业务知识和能力如何？   [单选题] [10分]</strong></p>
-<table>
-<thead>
-<tr>
-<th align="center">选项</th>
-<th align="center">赋值（分数）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">具有熟练的业务知识及相关的其他知识</td>
-<td align="center">10</td>
-</tr>
-<tr>
-<td align="center">具有熟练的业务知识，但对相关的其他知识还不完全具备</td>
-<td align="center">8</td>
-</tr>
-<tr>
-<td align="center">业务知识水平合格，对相关的其他知识了解得不够</td>
-<td align="center">6</td>
-</tr>
-<tr>
-<td align="center">业务知识水平尚需进一步提高，缺乏相关的其他知识</td>
-<td align="center">4</td>
-</tr>
-<tr>
-<td align="center">缺乏业务知识及相关的其他知识</td>
-<td align="center">2</td>
-</tr>
-</tbody></table>
-<p><strong>第10题 他的创新能力如何？   [单选题] [10分]</strong></p>
-<table>
-<thead>
-<tr>
-<th align="center">选项</th>
-<th align="center">赋值（分数）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">创新能力强，能提出方案，均能实施</td>
-<td align="center">10</td>
-</tr>
-<tr>
-<td align="center">创新能力较强，能提出方案，部分能实施</td>
-<td align="center">8</td>
-</tr>
-<tr>
-<td align="center">创新能力一般，偶尔能提出方案</td>
-<td align="center">6</td>
-</tr>
-<tr>
-<td align="center">创新能力较弱，能按经验做出判断</td>
-<td align="center">4</td>
-</tr>
-<tr>
-<td align="center">创新能力较差，只能按照上级指示进行</td>
-<td align="center">2</td>
-</tr>
-</tbody></table>
-<p><strong>第11题 他的创新能力如何？   [单选题] [10分]</strong></p>
-<table>
-<thead>
-<tr>
-<th align="center">选项</th>
-<th align="center">赋值（分数）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">能对下级进行正确的指导，能够使下级得到快速成长</td>
-<td align="center">15</td>
-</tr>
-<tr>
-<td align="center">能对下级进行指导，使下级符合工作能力要求</td>
-<td align="center">12</td>
-</tr>
-<tr>
-<td align="center">对下级的指导马马虎虎</td>
-<td align="center">9</td>
-</tr>
-<tr>
-<td align="center">不能对下级进行有效的指导</td>
-<td align="center">6</td>
-</tr>
-<tr>
-<td align="center">根本不能对下级进行指导，下级对其感到失望</td>
-<td align="center">3</td>
-</tr>
-</tbody></table>
-<p><strong>第12题  请问你对于 XXX 有其他的看法和建议吗？   [填空题]</strong><br> </p>
-<h1 id="二、结果统计"><a href="#二、结果统计" class="headerlink" title="二、结果统计"></a>二、结果统计</h1><p>问卷星企业版能够对统计数据进行整理和分析，这里我们导出简单分析后的数据，效果如下图：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/img/%E7%BB%9F%E8%AE%A1%E7%BB%93%E6%9E%9C%E7%9B%B4%E5%87%BA.png" alt=""></p>
-<p>除此之外，还可以下载原始数据CSV文件/xlsx文件，在Excel里进行统计汇总：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/img/%E8%AF%84%E4%BB%B7%E7%BB%93%E6%9E%9C%E6%B1%87%E6%80%BBExcel%E7%89%88.png" alt="">  <br>  </p>
-<h1 id="三、反思"><a href="#三、反思" class="headerlink" title="三、反思"></a>三、反思</h1><p>2018年也做过类似的360°匿名评价，但结果比较差，很多无效结果，没有参考性。而本次2019年度评价效果好很多，参与度与信度都有了很大的提升，我觉得主要有以下原因：</p>
 <blockquote>
-<ol>
-<li>领导的支持。总经理对于本次评价要求严格，必须全员参与，即使是休假员工也让人事通过电话告知，提升大家的重视程度；</li>
-<li>集中填写，缩短评价时间，不拖延，制造出紧张感；</li>
-<li>题目及选项设计优化，减少明显二元倾向的描述语言，增加引导性发散性的描述；</li>
-<li>选项随机排序，每道题、每份问卷没有固定的选项排序，因此每道题都需要去阅读选项，减少了盲目地惯性地选择 “A”；</li>
-<li>因为是集中匿名填写，所以大家的心理压力小很多，没有被猜出来的后顾之忧。</li>
-</ol>
+<p>管理制度 word版 下载链接： <a href="https://www.lanzous.com/b09qw5wbg" target="_blank" rel="noopener">https://www.lanzous.com/b09qw5wbg</a></p>
 </blockquote>
 <script>
         document.querySelectorAll('.github-emoji')
@@ -874,7 +445,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://hzghr.github.io/2020/01/09/%E4%B8%AD%E5%B1%82%E7%AE%A1%E7%90%86%E4%BA%BA%E5%91%98%E5%B9%B4%E5%BA%A6%E5%B7%A5%E4%BD%9C%E8%AF%84%E4%BB%B7/">https://hzghr.github.io/2020/01/09/%E4%B8%AD%E5%B1%82%E7%AE%A1%E7%90%86%E4%BA%BA%E5%91%98%E5%B9%B4%E5%BA%A6%E5%B7%A5%E4%BD%9C%E8%AF%84%E4%BB%B7/</a>
+                    <a href="https://hzghr.github.io/posts/14238">https://hzghr.github.io/posts/14238</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -912,8 +483,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E7%BB%A9%E6%95%88%E7%AE%A1%E7%90%86/">
-                                    <span class="chip bg-color">绩效管理</span>
+                                <a href="/tags/%E5%88%B6%E5%BA%A6%E5%BB%BA%E8%AE%BE/">
+                                    <span class="chip bg-color">制度建设</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/">
+                                    <span class="chip bg-color">法律法规</span>
                                 </a>
                             
                         </div>
@@ -1343,31 +918,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/01/18/2019-2020%E5%B9%B4%E4%BC%9A%E6%9D%82%E8%AE%B0/">
+                <a href="/posts/32123">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/featureimages/9.jpg" class="responsive-img" alt="2019-2020年会杂记">
+                        <img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/featureimages/12.jpg" class="responsive-img" alt="工作模板之制度传签表">
                         
-                        <span class="card-title">2019-2020年会杂记</span>
+                        <span class="card-title">工作模板之制度传签表</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            2019-2020年会的工作记录和反思等。
+                            员工对于制度的签收、知情及遵守
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-01-18
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-08-08
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96/" class="post-category">
-                                    企业文化
+                            <a href="/categories/%E5%B7%A5%E4%BD%9C%E6%A8%A1%E6%9D%BF/" class="post-category">
+                                    工作模板
                                 </a>
                             
                             
@@ -1377,8 +952,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96/">
-                        <span class="chip bg-color">企业文化</span>
+                    <a href="/tags/%E5%B7%A5%E4%BD%9C%E6%A8%A1%E6%9D%BF/">
+                        <span class="chip bg-color">工作模板</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%88%B6%E5%BA%A6%E5%BB%BA%E8%AE%BE/">
+                        <span class="chip bg-color">制度建设</span>
                     </a>
                     
                 </div>
@@ -1392,31 +971,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/12/28/2018-2019%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/">
+                <a href="/posts/36707">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/featureimages/11.jpg" class="responsive-img" alt="2018-2019工作总结">
+                        <img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/featureimages/2.jpg" class="responsive-img" alt="PDP个性行为风格测评">
                         
-                        <span class="card-title">2018-2019工作总结</span>
+                        <span class="card-title">PDP个性行为风格测评</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            对于这一年多工作的简单小结。
+                            利用PDP行为分析工具，进行职业性格测评。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-11-21
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%B7%A5%E4%BD%9C%E9%9A%8F%E7%AC%94/" class="post-category">
-                                    工作随笔
+                            <a href="/categories/%E4%BA%BA%E6%89%8D%E7%B4%A0%E8%B4%A8%E6%B5%8B%E8%AF%84/" class="post-category">
+                                    人才素质测评
                                 </a>
                             
                             
@@ -1426,8 +1005,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93/">
-                        <span class="chip bg-color">工作总结</span>
+                    <a href="/tags/%E4%BA%BA%E6%89%8D%E7%B4%A0%E8%B4%A8%E6%B5%8B%E8%AF%84/">
+                        <span class="chip bg-color">人才素质测评</span>
                     </a>
                     
                 </div>
@@ -1465,100 +1044,6 @@
 <style type="text/css">
 code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
 </style>
-
-    </div>
-    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
-        <div class="toc-widget">
-            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
-            <div id="toc-content"></div>
-        </div>
-    </div>
-</div>
-
-<!-- TOC 悬浮按钮. -->
-
-<div id="floating-toc-btn" class="hide-on-med-and-down">
-    <a class="btn-floating btn-large bg-color">
-        <i class="fas fa-list-ul"></i>
-    </a>
-</div>
-
-
-<script src="/libs/tocbot/tocbot.min.js"></script>
-<script>
-    $(function () {
-        tocbot.init({
-            tocSelector: '#toc-content',
-            contentSelector: '#articleContent',
-            headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('0'),
-            headingSelector: 'h1,h2, h3, h4'
-        });
-
-        // modify the toc link href to support Chinese.
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
-
-        // modify the heading title id to support Chinese.
-        i = 0;
-        $('#articleContent').children('h1,h2, h3, h4').each(function () {
-            $(this).attr('id', tocHeading + (++i));
-        });
-
-        // Set scroll toc fixed.
-        let tocHeight = parseInt($(window).height() * 0.4 - 64);
-        let $tocWidget = $('.toc-widget');
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            /* add post toc fixed. */
-            if (scroll > tocHeight) {
-                $tocWidget.addClass('toc-fixed');
-            } else {
-                $tocWidget.removeClass('toc-fixed');
-            }
-        });
-
-        
-        /* 修复文章卡片 div 的宽度. */
-        let fixPostCardWidth = function (srcId, targetId) {
-            let srcDiv = $('#' + srcId);
-            if (srcDiv.length === 0) {
-                return;
-            }
-
-            let w = srcDiv.width();
-            if (w >= 450) {
-                w = w + 21;
-            } else if (w >= 350 && w < 450) {
-                w = w + 18;
-            } else if (w >= 300 && w < 350) {
-                w = w + 16;
-            } else {
-                w = w + 14;
-            }
-            $('#' + targetId).width(w);
-        };
-
-        // 切换TOC目录展开收缩的相关操作.
-        const expandedClass = 'expanded';
-        let $tocAside = $('#toc-aside');
-        let $mainContent = $('#main-content');
-        $('#floating-toc-btn .btn-floating').click(function () {
-            if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).hide();
-                $mainContent.removeClass('l9');
-            } else {
-                $tocAside.addClass(expandedClass).show();
-                $mainContent.addClass('l9');
-            }
-            fixPostCardWidth('artDetail', 'prenext-posts');
-        });
-        
-    });
-</script>
 
     
 
@@ -1727,6 +1212,16 @@ $(function () {
 
 
     <!-- Baidu Analytics -->
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1598555bc1338c15478e42573234fcde";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 
     <!-- Baidu Push -->
 

@@ -1,0 +1,2029 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="利用Hexo搭建网页及CDN优化, 人力资源管理,招聘,hr,hrbp">
+    <meta name="description" content="利用hexo搭建静态网页及CDN优化访问速度">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>利用Hexo搭建网页及CDN优化 | HZGHR</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    
+    <script src="/libs/jquery/jquery.min.js"></script>
+    
+<meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper head-container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">HZGHR</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">HZGHR</div>
+        <div class="logo-desc">
+            
+            专注于人力资源管理,分享生活,分享知识
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			Contact
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/HZGHR/HZGHR.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/HZGHR/HZGHR.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/featureimages/19.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">利用Hexo搭建网页及CDN优化</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/">
+                                <span class="chip bg-color">Hexo静态网页</span>
+                            </a>
+                        
+                            <a href="/tags/%E4%BA%92%E8%81%94%E7%BD%91%E6%95%99%E7%A8%8B/">
+                                <span class="chip bg-color">互联网教程</span>
+                            </a>
+                        
+                            <a href="/tags/CDN/">
+                                <span class="chip bg-color">CDN</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E4%BA%92%E8%81%94%E7%BD%91%E6%95%99%E7%A8%8B/" class="post-category">
+                                互联网教程
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-02-12
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    9k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    35 分
+                </div>
+                
+				
+                
+            </div>
+            
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <blockquote>
+<p> Hexo是一个静态博客框架，基于Node.js，将Markdown文章通过渲染引擎，生成一个静态网页，再结合Git命令（ssh），Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+</blockquote>
+<h1 id="一、博客环境搭建"><a href="#一、博客环境搭建" class="headerlink" title="一、博客环境搭建"></a>一、博客环境搭建</h1><blockquote>
+<p>系统信息：Win10 专业版</p>
+<p>所需软件：</p>
+<ul>
+<li>Node.js</li>
+<li>Git</li>
+<li>Notepad++</li>
+<li>Typora</li>
+</ul>
+</blockquote>
+<h2 id="1、下载安装Node-js和Git"><a href="#1、下载安装Node-js和Git" class="headerlink" title="1、下载安装Node.js和Git"></a>1、下载安装Node.js和Git</h2><h3 id="1-1-下载安装Node-js"><a href="#1-1-下载安装Node-js" class="headerlink" title="1.1 下载安装Node.js"></a>1.1 下载安装Node.js</h3><p>首先去Node.js官网 (<a href="https://Nodejs.org/en/download/" target="_blank" rel="noopener">https://Nodejs.org/en/download/</a>) 下载Node.js的安装程序，根据你电脑系统的配置信息，下载对应的安装程序，然后开始进行下面的步骤。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/nodejs-0.png" alt=""></p>
+<p>下载好安装包后，一直点“next”，按默认配置安装就行。</p>
+<p>安装完成后，进入CMD(管理员)，验证安装，并测试Node.js是否加入环境变量，当出现如下图的情况，Node.js安装大功告成。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-8.png" alt=""></p>
+<p>如果执行 <strong>Node -v</strong> 报错的话，那么手动将Node.js的安装路径添加到环境变量中，右击点击我的电脑 -&gt;属性 -&gt; 高级系统设置 -&gt; 环境变量，在系统变量下找到名为path的变量名，如下图：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191117191107.png" alt=""></p>
+<p>选中path，或者双击，然后将你Node.js的安装路径放在path变量值的最后面，如果添加之前path值最后有 英文的分号，则直接将路径添加进去即可，如果没有，先添加分号，然后点击保存，回到桌面，打开cmd（Win+R），执行<strong>Node -v</strong>，看是否成功。</p>
+<h3 id="1-2-下载安装Git"><a href="#1-2-下载安装Git" class="headerlink" title="1.2 下载安装Git"></a>1.2 下载安装Git</h3><p>首先就是去Git官网（<a href="https://Git-scm.com/）下载Git，根据你电脑系统的配置信息，下载对应的安装程序，然后开始进行下面的步骤。官网直接下载速度很慢，建议使用迅雷下载，会有镜像加速，快很多。" target="_blank" rel="noopener">https://Git-scm.com/）下载Git，根据你电脑系统的配置信息，下载对应的安装程序，然后开始进行下面的步骤。官网直接下载速度很慢，建议使用迅雷下载，会有镜像加速，快很多。</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191117193737.png" alt=""></p>
+<p>下载好安装包后，一直点“next”，按默认配置安装就行。</p>
+<p>回到桌面，点击鼠标右键，会出现两个选项Git GUI Here和Git Bash Here，在打开Cmd(Win+R)，分别输入<strong>Git  *<em>和  *</em>Git –version</strong>，如果出现如下图的情况，即安装成功！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/git-12.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/git-13.png" alt=""></p>
+<h1 id="二、GitHub注册及GitHub-Pages配置"><a href="#二、GitHub注册及GitHub-Pages配置" class="headerlink" title="二、GitHub注册及GitHub Pages配置"></a>二、GitHub注册及GitHub Pages配置</h1><h2 id="1、GitHub注册"><a href="#1、GitHub注册" class="headerlink" title="1、GitHub注册"></a>1、GitHub注册</h2><p>略过。官网（<a href="https://Github.com/）。" target="_blank" rel="noopener">https://Github.com/）。</a></p>
+<h2 id="2、GitHub-Pages配置"><a href="#2、GitHub-Pages配置" class="headerlink" title="2、GitHub Pages配置"></a>2、GitHub Pages配置</h2><p>创建仓库（repository），仓库名创建格式必须为：<strong>&lt;用户名&gt;.Github.io</strong> ， Description为描述仓库，自定义写，填写必要的描述，也可不填。勾选<strong>Initialize this repository with a README</strong> ，点击<strong>Creat repository</strong>进行创建。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191117212538.png" alt=""></p>
+<p>然后就会出现如图所示的界面，即仓库创建成功！Pages的地址就是 <strong>https://&lt;你的用户名&gt;.Github.io</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191117213321.png" alt=""></p>
+<h1 id="三、配置Git用户名及邮箱"><a href="#三、配置Git用户名及邮箱" class="headerlink" title="三、配置Git用户名及邮箱"></a>三、配置Git用户名及邮箱</h1><p>在桌面点击鼠标右键，点击Git Bash Here，会出现一个界面如下图所示：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191117215118.png" alt=""></p>
+<p>然后分别输入下面的两个命令，并回车：</p>
+<pre><code>git config --global user.name   "此处填写你注册时的用户名"
+git config --global user.email   "此处填写你注册时的邮箱"</code></pre><p>一般只要不报错，可以跳过下面寻找<strong>.gitconfig</strong>文件</p>
+<p>然后找到<strong>.gitconfig</strong>文件，文件存放位置在<strong>C:/Users/[username]/.gitconfig</strong>（未找到的话，请开启显示隐藏文件的功能），用编辑器打开，看到如下图所示的内容，即配置成功！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191117220016.png" alt=""></p>
+<h1 id="四、本地安装hexo静态博客框架以及发布到Github-Pages"><a href="#四、本地安装hexo静态博客框架以及发布到Github-Pages" class="headerlink" title="四、本地安装hexo静态博客框架以及发布到Github Pages"></a>四、本地安装hexo静态博客框架以及发布到Github Pages</h1><h2 id="1、安装Hexo"><a href="#1、安装Hexo" class="headerlink" title="1、安装Hexo"></a>1、安装Hexo</h2><p>选择一个磁盘，新建一个文件夹，自己重命名文件夹（如：我的文件夹为：D\HZG_Blog），博客相关文件将储存在此文件夹下，在该文件夹下右键鼠标，点击 <strong>Git Bash Here</strong>，输入以下 npm 命令即可安装，第一个命令表示安装 hexo，第二个命令表示安装 hexo 部署到 git page 的 deployer，如图所示即为安装成功</p>
+<pre><code>$ npm install hexo-cli -g 
+$ npm install hexo-deployer-git --save  </code></pre><p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY1M2Q0YjAxOS5wbmc" alt=""></p>
+<h2 id="2、Hexo-初始化配置"><a href="#2、Hexo-初始化配置" class="headerlink" title="2、Hexo 初始化配置"></a>2、Hexo 初始化配置</h2><p>在刚才新建的文件夹里面再次新建一个 Hexo 文件夹（如：我的文件夹为：D\HZG_Blog\Hexo）,进入该 Hexo 文件夹右键鼠标，点击 <strong>Git Bash Here</strong>，输入以下命令，如图所示则安装成功</p>
+<pre><code>$ hexo init</code></pre><p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY1NjZiNGI2Yi5wbmc" alt=""></p>
+<p>Hexo 安装完成后，将会在指定文件夹中新建所需要的文件，Hexo 文件夹下的目录如下：</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY1OGQyZWVlNS5wbmc" alt=""></p>
+<h2 id="3、本地查看效果"><a href="#3、本地查看效果" class="headerlink" title="3、本地查看效果"></a>3、本地查看效果</h2><p>执行以下命令，执行完即可登录 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 查看效果</p>
+<pre><code>$ hexo generate  
+$ hexo server</code></pre><p>显示以下信息说明操作成功：</p>
+<pre><code>INFO Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</code></pre><p>登录 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 查看效果：</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY1YjdjNzRkMi5wbmc" alt=""></p>
+<p>如果4000端口被占用的话，可以自定义端口，例如5000，相应的参数替换。<br> </p>
+<h2 id="4、将博客部署到-Github-Pages-上"><a href="#4、将博客部署到-Github-Pages-上" class="headerlink" title="4、将博客部署到 Github Pages 上"></a>4、将博客部署到 Github Pages 上</h2><p>到目前为止，我们的本地博客就成功搭建了，但是现在我们只能通过本地连接查看博客，我们要做的是让其他人也能够访问我们的博客，这就需要我们将博客部署到Github Pages上</p>
+<h3 id="4-1-配置-SSH-密钥"><a href="#4-1-配置-SSH-密钥" class="headerlink" title="4.1 配置 SSH 密钥"></a>4.1 配置 SSH 密钥</h3><p>只有配置好 SSH 密钥后，我们才可以通过 git 操作实现本地代码库与 Github 代码库同步，在你第一次新建的文件夹里面（如：我的文件夹为：D\HZG_Blog） <strong>Git Bash Here</strong> 输入以下命令：</p>
+<pre><code>$ ssh-keygen -t rsa -C "your email@example.com" 
+#引号里面填写你的邮箱地址</code></pre><p>之后会出现：</p>
+<pre><code>Generating public/private rsa key pair.  
+Enter file in which to save the key (/c/Users/you/.ssh/id_rsa):
+#到这里可以直接回车将密钥按默认文件进行存储</code></pre><p>然后会出现：</p>
+<pre><code>Enter passphrase (empty for no passphrase):   
+#这里是要你输入密码，其实不需要输什么密码，直接回车就行 
+Enter same passphrase again:  </code></pre><p>接下来屏幕会显示：</p>
+<pre><code>Your identification has been saved in /c/Users/you/.ssh/id_rsa. 
+Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub. 
+The key fingerprint is: 
+#这里是各种字母数字组成的字符串，结尾是你的邮箱  
+The key's randomart image is:
+#这里也是各种字母数字符号组成的字符串  </code></pre><p>运行以下命令，将公钥的内容复制到系统粘贴板上</p>
+<pre><code>$ clip &lt; ~/.ssh/id_rsa.pub</code></pre><h3 id="4-2-在-GitHub-账户中添加你的公钥"><a href="#4-2-在-GitHub-账户中添加你的公钥" class="headerlink" title="4.2 在 GitHub 账户中添加你的公钥"></a>4.2 在 GitHub 账户中添加你的公钥</h3><p>（1）登陆 GitHub，进入 Settings：</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY2MDZlNzU1OC5wbmc" alt=""></p>
+<p>（2）点击 <strong>SSH and GPG Keys</strong>：</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY2MjJiNDU4OC5wbmc" alt=""></p>
+<p>（3） 选择 <strong>New SSH key</strong>：</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY2M2ViMWFiMi5wbmc" alt=""></p>
+<p>（4）粘贴密钥：</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY2YmMxZmM4Ny5wbmc" alt=""></p>
+<h3 id="4-3-测试"><a href="#4-3-测试" class="headerlink" title="4.3 测试"></a>4.3 测试</h3><p>输入以下命令：注意：<a href="mailto:git@github.com">git@github.com</a>不要做任何更改！</p>
+<pre><code>$ ssh -T git@github.com</code></pre><p>之后会显示：</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY2ZTNiNDgwMy5wbmc" alt=""></p>
+<p>输入 yes 后会显示：</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY3MDJjNDZkNi5wbmc" alt=""></p>
+<p>此时表示设置正确</p>
+<h3 id="4-4-将本地的-Hexo-文件更新到-Github-的库中"><a href="#4-4-将本地的-Hexo-文件更新到-Github-的库中" class="headerlink" title="4.4 将本地的 Hexo 文件更新到 Github 的库中"></a>4.4 将本地的 Hexo 文件更新到 Github 的库中</h3><p>①登录 Github 打开自己的项目 your name.github.io</p>
+<p>② 鼠标移到 <strong>Clone or download</strong> 按钮，选择 <strong>Use SSH</strong></p>
+<p><img src="https://img-blog.csdnimg.cn/20190816220246218.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2NzU5MjI0,size_16,color_FFFFFF,t_70" alt=""></p>
+<p>③ 一键复制地址</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY3NmNiM2RhNC5wbmc" alt=""></p>
+<p>④ 打开你创建的 Hexo 文件夹（如：D:\HZG_Blog\Hexo），右键用记事本（Notepad++或者VS code等都可以）打开该文件夹下的 <strong>_config.yml</strong> 文件</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY3OGI4YmEzZS5wbmc" alt=""></p>
+<p>⑤ 按下图修改 _config.yml 文件并保存</p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY3ZTExZWVkNy5wbmc" alt=""></p>
+<p>⑥ 在 Hexo 文件夹下分别执行以下命令</p>
+<pre><code>$  hexo g 
+$  hexo d</code></pre><p>或者直接执行：</p>
+<pre><code>$  hexo g -d</code></pre><p>执行完之后会让你输入你的 Github 的账号和密码，如果此时报以下错误，说明你的 deployer 没有安装成功</p>
+<pre><code>ERROR Deployer not found: git</code></pre><p>需要执行以下命令再安装一次：</p>
+<pre><code>npm install hexo-deployer-git --save</code></pre><p>再执行 <strong>hexo g -d</strong>，你的博客就会部署到 Github 上了</p>
+<p>⑦ 访问博客</p>
+<p>你的博客地址：https://你的用户名.github.io</p>
+<h2 id="5、在博客上发表文章"><a href="#5、在博客上发表文章" class="headerlink" title="5、在博客上发表文章"></a>5、在博客上发表文章</h2><p>博客已经成功搭建了，但是我们该怎么写博客呢？</p>
+<p>① 新建一个空文章，输入以下命令，会在项目 \Hexo\source_posts 中生成 文章标题.md 文件，文章标题根据需要命名</p>
+<pre><code>$ hexo n "文章标题"</code></pre><p>也可以直接在 <strong>\Hexo\source_posts</strong> 目录下右键鼠标新建文本文档，改后缀为 <strong>.md</strong> 即可，这种方法比较方便</p>
+<p>② 用编辑器编写文章</p>
+<p>md 全称 Markdown， Markdown 是 2004 年由 John Gruberis 设计和开发的纯文本格式的语法，非常的简单实用，常用的标记符号屈指可数，几分钟即可学会， .md 文件可以使用支持 Markdown 语法的编辑器编辑，然后保存文件到 <strong>\Hexo\source_posts</strong> 文件夹下即可</p>
+<p>推荐使用 <strong>Typora</strong> （ <a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a> ），具有实时渲染，所写即所见，所见即所得。</p>
+<p>文章标题，标签，分类，封面图片，摘要等，可以在 Front-matter 里面配置（Front-matter 是文件最上方以 — 分隔的区域，用于指定个别文件的变量，官方文档：<a href="https://hexo.io/zh-cn/docs/front-matter" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/front-matter</a> ）。</p>
+<p>当我们用编辑器写好文章后，可以使用以下命令将其推送到服务器上：</p>
+<pre><code> $ hexo g  
+ $ hexo d</code></pre><h1 id="五、Hexo主题安装及个性化修改"><a href="#五、Hexo主题安装及个性化修改" class="headerlink" title="五、Hexo主题安装及个性化修改"></a>五、Hexo主题安装及个性化修改</h1><h2 id="1、主题下载及安装"><a href="#1、主题下载及安装" class="headerlink" title="1、主题下载及安装"></a>1、主题下载及安装</h2><p>经过重重比较，个人更加喜欢的是名为<strong>matery</strong>的hexo主题，点击 <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank" rel="noopener">https://github.com/blinkfox/hexo-theme-matery</a> 下载 master 分支的最新稳定版的代码，解压缩后，将 <strong>hexo-theme-matery</strong> 的文件夹复制到你 Hexo 的 themes 文件夹中即可。</p>
+<p>当然你也可以在你的站点目录文件夹下使用 <strong>git clone</strong> 命令来下载：直接在站点根目录下执行下面的命令，即可进行主题的下载，主题有两个版本，稳定版本和最新版本(不定期更新优化)，自主选择版本。</p>
+<p>打开 Hexo 文件夹下的 themes 目录（如：D:\HZG_Blog\Hexo\themes），右键 <strong>Git Bash Here</strong>，输入以下命令：</p>
+<pre><code>  git clone https://github.com/blinkfox/hexo-theme-matery themes/matery   #稳定版
+  git clone -b develop https://github.com/blinkfox/hexo-theme-matery themes/matery  #最新版(不定期进行优化更新)</code></pre><p>如果访问速度比较慢的话，可从Gitee仓库下载：</p>
+<pre><code>   git clone https://gitee.com/yafine66/hexo-theme-matery themes/matery  #稳定版
+   git clone -b develop https://gitee.com/yafine66/hexo-theme-matery themes/matery  #最新版(不定期进行优化更新)</code></pre><p>下载后，打开 Hexo 文件夹下的配置文件 <strong>_config.yml</strong> ，找到关键字 <strong>theme</strong>，修改参数为：<strong>theme：hexo-theme-matery</strong> （其他主题修改成相应名称即可），<strong>再次注意冒号后面有一个空格！</strong></p>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDMvMjUvNWM5OGY4N2MwYTdlOS5wbmc" alt=""></p>
+<p>返回 Hexo 目录，右键 Git Bash Here ，输入以下命令开始部署主题：</p>
+<pre><code>   $ hexo g    
+   $ hexo s</code></pre><p>此时打开浏览器，访问 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 就可看见我们的主题已经更换了，如果感觉效果满意，我们就可以把它部署到Github上了</p>
+<p>打开 Hexo 文件夹，右键 Git Bash Here ，输入以下命令：</p>
+<pre><code>$ hexo clean  
+#该命令的作用是清除缓存，若不输入此命令，服务器有可能更新不了主题 (简化版：$ hexo cl )
+$ hexo g
+$ hexo d</code></pre><p>此时访问自己的博客即可看见更换后的主题，但我们仍然需要对主题的相关配置进行修改，比如网站标题，图标等等，Hexo 中有两份主要的配置文件，名称都是 <strong>_config.yml</strong> ，它们均是用于站点配置使用的。</p>
+<p>其中，一份位于站点根目录下（比如我的：D:\HZG_Blog\Hexo\ _config.yml），主要包含 Hexo 本身整站的配置；另一份位于主题目录下（比如我的：D:\HZG_Blog\Hexo\themes\hexo-theme-matery\ _config.yml），这份配置由主题作者提供，主要用于配置主题相关的选项，一般 _config.yml 文件里都有相关注释，按需修改即可</p>
+<p>另外注意，配置文件中的标点符号不要出现中文格式的标点符号，不然运行会出错。</p>
+<h2 id="2、主题配置"><a href="#2、主题配置" class="headerlink" title="2、主题配置"></a>2、主题配置</h2><h3 id="2-1-基础参数设置"><a href="#2-1-基础参数设置" class="headerlink" title="2.1 基础参数设置"></a>2.1 基础参数设置</h3><p>将站点配置文件中的theme值修改为你下载主题的文件名，此处为matery，那么值就修改为 <strong>theme: matery。</strong></p>
+<p>一些站点配置文件的其他地方的修改：</p>
+<ul>
+<li><p>语言选择：如果为中文用户，则在<strong>language</strong>:后添加值<strong>zh-CN</strong>，如果不修改，默认为英语；</p>
+</li>
+<li><p>网址修改：<strong>url:</strong> 的值为你的网址名，如<a href="http://xxxx.github.io，如果有域名，则修改为你的域名即可。" target="_blank" rel="noopener">http://xxxx.github.io，如果有域名，则修改为你的域名即可。</a></p>
+</li>
+<li><p>站点配置文件有个<strong>per_page</strong>属性，建议修改为<strong>6的倍数</strong>，这样网站在适应设备时，有较好的显示效果。</p>
+</li>
+</ul>
+<h3 id="2-2-新建标签-tags-页面"><a href="#2-2-新建标签-tags-页面" class="headerlink" title="2.2 新建标签 tags 页面"></a>2.2 新建标签 tags 页面</h3><p><strong>tags</strong> 页是用来展示所有标签的页面，如果在你的博客 <strong>source</strong> 目录下还没有 <strong>tags/index.md</strong> 文件，那么你就需要新建一个，命令如下：</p>
+<pre><code>hexo new page "tags"</code></pre><p>编辑你刚刚新建的页面文件 <strong>/source/tags/index.md</strong>，至少需要以下内容：</p>
+<pre><code>---
+title: tags
+date: 2018-09-30 18:23:38
+type: "tags"
+layout: "tags"
+---</code></pre><h3 id="2-3-新建分类-categories-页面"><a href="#2-3-新建分类-categories-页面" class="headerlink" title="2.3 新建分类 categories 页面"></a>2.3 新建分类 categories 页面</h3><p>categories 页是用来展示所有分类的页面，如果在你的博客 source 目录下还没有 categories/index.md 文件，那么你就需要新建一个，命令如下：</p>
+<pre><code>hexo new page "categories"</code></pre><p>编辑你刚刚新建的页面文件 <strong>/source/categories/index.md</strong>，至少需要以下内容：</p>
+<pre><code>---
+title: categories
+date: 2018-09-30 17:25:30
+type: "categories"
+layout: "categories"
+---</code></pre><h3 id="2-4-新建关于我-about-页面"><a href="#2-4-新建关于我-about-页面" class="headerlink" title="2.4 新建关于我 about 页面"></a>2.4 新建关于我 about 页面</h3><p>about 页是用来展示关于我和我的博客信息的页面，如果在你的博客 source 目录下还没有 about/index.md 文件，那么你就需要新建一个，命令如下：</p>
+<pre><code>hexo new page "about"</code></pre><p>编辑你刚刚新建的页面文件 <strong>/source/about/index.md</strong>，至少需要以下内容：</p>
+<pre><code>---
+title: about
+date: 2018-09-30 17:25:30
+type: "about"
+layout: "about"
+---</code></pre><h3 id="2-5-新建留言板-contact-页面-可选"><a href="#2-5-新建留言板-contact-页面-可选" class="headerlink" title="2.5 新建留言板 contact 页面 (可选)"></a>2.5 新建留言板 contact 页面 (可选)</h3><p>contact 页是用来展示留言板信息的页面，如果在你的博客 source 目录下还没有 contact/index.md 文件，那么你就需要新建一个，命令如下：</p>
+<pre><code>hexo new page "contact"</code></pre><p>编辑你刚刚新建的页面文件 <strong>/source/contact/index.md</strong>，至少需要以下内容：</p>
+<pre><code>---
+title: contact
+date: 2018-09-30 17:25:30
+type: "contact"
+layout: "contact"
+---</code></pre><blockquote>
+<p>注：本留言板功能依赖于第三方评论系统，请激活你的评论系统才有效果。并且在主题的 _config.yml 文件中，第 19 至 21 行的“菜单”配置，取消关于留言板的注释即可。</p>
+</blockquote>
+<h3 id="2-6-新建友情链接-friends-页面-可选"><a href="#2-6-新建友情链接-friends-页面-可选" class="headerlink" title="2.6 新建友情链接 friends 页面 (可选)"></a>2.6 新建友情链接 friends 页面 (可选)</h3><p>friends 页是用来展示友情链接信息的页面，如果在你的博客 source 目录下还没有 friends/index.md 文件，那么你就需要新建一个，命令如下：</p>
+<pre><code>hexo new page "friends"</code></pre><p>编辑你刚刚新建的页面文件 <strong>/source/friends/index.md</strong>，至少需要以下内容：</p>
+<pre><code>---
+title: friends
+date: 2018-12-12 21:25:30
+type: "friends"
+layout: "friends"
+---</code></pre><p>同时，在你的博客 <strong>source 目录</strong>下新建 <strong>_data 目录</strong>，在 _data 目录中新建 <strong>friends.json</strong> 文件，文件内容如下所示：</p>
+<pre><code>[{
+    "avatar": "http://image.luokangyuan.com/1_qq_27922023.jpg",
+    "name": "码酱",
+    "introduction": "我不是大佬，只是在追寻大佬的脚步",
+    "url": "http://luokangyuan.com/",
+    "title": "前去学习"
+}, {
+    "avatar": "http://image.luokangyuan.com/4027734.jpeg",
+    "name": "闪烁之狐",
+    "introduction": "编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬",
+    "url": "https://blinkfox.github.io/",
+    "title": "前去学习"
+}, {
+    "avatar": "http://image.luokangyuan.com/avatar.jpg",
+    "name": "ja_rome",
+    "introduction": "平凡的脚步也可以走出伟大的行程",
+    "url": "https://me.csdn.net/jlh912008548",
+    "title": "前去学习"
+}]</code></pre><h3 id="2-7-添加emoji表情支持（可选的）"><a href="#2-7-添加emoji表情支持（可选的）" class="headerlink" title="2.7 添加emoji表情支持（可选的）"></a>2.7 添加emoji表情支持（可选的）</h3><p>本主题新增了对emoji表情的支持，使用到了 hexo-filter-github-emojis 的 Hexo 插件来支持 emoji表情的生成，把对应的markdown emoji语法（::,例如：:\smile:）转变成会跳跃的emoji表情，安装命令如下：</p>
+<pre><code>npm install hexo-filter-github-emojis --save</code></pre><p>在 Hexo 根目录下的 _config.yml 文件中，新增以下的配置项：</p>
+<pre><code>githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:</code></pre><p>执行 hexo clean &amp;&amp; hexo g 重新生成博客文件，然后就可以在文章中对应位置看到你用emoji语法写的表情了。</p>
+<h3 id="2-8-搜索"><a href="#2-8-搜索" class="headerlink" title="2.8  搜索"></a>2.8  搜索</h3><p>本主题中还使用到了 hexo-generator-search 的 Hexo 插件来做内容搜索，安装命令如下：</p>
+<pre><code>npm install hexo-generator-search --save</code></pre><p>在 Hexo 根目录下的 _config.yml 文件中，新增以下的配置项：</p>
+<pre><code>search:
+  path: search.xml
+  field: post</code></pre><h3 id="2-9-文章字数统计插件（可选的）"><a href="#2-9-文章字数统计插件（可选的）" class="headerlink" title="2.9 文章字数统计插件（可选的）"></a>2.9 文章字数统计插件（可选的）</h3><p>如果你想要在文章中显示文章字数、阅读时长信息，可以安装 hexo-wordcount插件。</p>
+<pre><code>npm i --save hexo-wordcount</code></pre><p>然后只需在本主题下的 <strong>_config.yml</strong> 文件中，激活以下配置项即可：</p>
+<pre><code>wordCount:
+  enable: false # 将这个值设置为 true 即可.
+  postWordCount: true
+  min2read: true
+  totalCount: true</code></pre><h3 id="2-10-添加-DaoVoice-在线聊天功能（可选的）"><a href="#2-10-添加-DaoVoice-在线聊天功能（可选的）" class="headerlink" title="2.10 添加 DaoVoice 在线聊天功能（可选的）"></a>2.10 添加 DaoVoice 在线聊天功能（可选的）</h3><p>前往 DaoVoice 官网注册并且获取 app_id，并将 <strong>app_id</strong> 填入<strong>主题的 _config.yml</strong> 文件中</p>
+<h3 id="2-11-修改页脚"><a href="#2-11-修改页脚" class="headerlink" title="2.11  修改页脚"></a>2.11  修改页脚</h3><p>页脚信息可能需要做定制化修改，而且它不便于做成配置信息，所以可能需要你自己去再修改和加工。修改的地方在<strong>主题文件的 /layout/_partial/footer.ejs</strong> 文件中，包括站点、使用的主题、访问量等。</p>
+<h3 id="2-12-修改社交链接"><a href="#2-12-修改社交链接" class="headerlink" title="2.12 修改社交链接"></a>2.12 修改社交链接</h3><p>在主题的 <strong>_config.yml</strong> 文件中，默认支持 QQ、GitHub 和邮箱等的配置，你可以在主题文件的 <strong>/layout/_partial/social-link.ejs</strong> 文件中，新增、修改你需要的社交链接地址，增加链接可参考如下代码：</p>
+<pre><code>&lt;% if (theme.socialLink.github) { %&gt;
+    &lt;a href="&lt;%= theme.socialLink.github %&gt;" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50"&gt;
+        &lt;i class="fab fa-github"&gt;&lt;/i&gt;
+    &lt;/a&gt;
+&lt;% } %&gt;</code></pre><p>其中，社交图标（如：fa-github）你可以在 <strong>Font Awesome</strong> 中搜索找到。以下是常用社交图标的标识，供你参考：</p>
+<ul>
+<li>Facebook: fab fa-facebook</li>
+<li>Twitter: fab fa-twitter</li>
+<li>Google-plus: fab fa-google-plus</li>
+<li>Linkedin: fab fa-linkedin</li>
+<li>Tumblr: fab fa-tumblr</li>
+<li>Medium: fab fa-medium</li>
+<li>Slack: fab fa-slack</li>
+<li>Sina Weibo: fab fa-weibo</li>
+<li>Wechat: fab fa-weixin</li>
+<li>QQ: fab fa-qq</li>
+<li>Zhihu: fab fa-zhihu</li>
+</ul>
+<h3 id="2-13-修改打赏的二维码图片"><a href="#2-13-修改打赏的二维码图片" class="headerlink" title="2.13 修改打赏的二维码图片"></a>2.13 修改打赏的二维码图片</h3><p>在主题文件的 <strong>source/medias/reward</strong> 文件中，你可以替换成你的的微信和支付宝的打赏二维码图片。</p>
+<h2 id="3、文章-Front-matter-介绍"><a href="#3、文章-Front-matter-介绍" class="headerlink" title="3、文章 Front-matter 介绍"></a>3、文章 Front-matter 介绍</h2><p>Front-matter 选项详解<br>Front-matter 选项中的所有内容均为非必填的。但我仍然建议至少填写 title 和 date 的值。</p>
+<table>
+<thead>
+<tr>
+<th>配置选项</th>
+<th>默认值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>title</td>
+<td>Markdown 的文件标题</td>
+<td>文章标题，强烈建议填写此选项</td>
+</tr>
+<tr>
+<td>date</td>
+<td>文件创建时的日期时间</td>
+<td>发布时间，强烈建议填写此选项，且最好保证全局唯一</td>
+</tr>
+<tr>
+<td>author</td>
+<td>根 _config.yml 中的 author</td>
+<td>文章作者</td>
+</tr>
+<tr>
+<td>img</td>
+<td>featureImages 中的某个值</td>
+<td>文章特征图，推荐使用图床来做图片的路径。如: <a href="http://xxx.com/xxx.jpg" target="_blank" rel="noopener">http://xxx.com/xxx.jpg</a> ，建议不设置，默认随机图片就行</td>
+</tr>
+<tr>
+<td>top</td>
+<td>true</td>
+<td>推荐文章（文章是否置顶），如果 top 值为 true，则会作为首页推荐文章，不置顶：false</td>
+</tr>
+<tr>
+<td>cover</td>
+<td>false</td>
+<td>v1.0.2 版本新增，表示该文章是否需要加入到首页轮播封面中</td>
+</tr>
+<tr>
+<td>coverImg</td>
+<td>无</td>
+<td>v1.0.2版本新增，表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片</td>
+</tr>
+<tr>
+<td>password</td>
+<td>无</td>
+<td>文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 password 的值，该值必须是用 SHA256 加密后的密码，防止被他人识破。前提是在主题的_config.yml 中激活了 verifyPassword选项</td>
+</tr>
+<tr>
+<td>toc</td>
+<td>true</td>
+<td>是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的 config.yml 中激活了 toc 选项</td>
+</tr>
+<tr>
+<td>mathjax</td>
+<td>false</td>
+<td>是否开启数学公式支持 ，本文章是否开启 mathjax，且需要在主题的 _config.yml 文件中也需要开启才行</td>
+</tr>
+<tr>
+<td>summary</td>
+<td>无</td>
+<td>文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要</td>
+</tr>
+<tr>
+<td>categories</td>
+<td>无</td>
+<td>文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类</td>
+</tr>
+<tr>
+<td>tags</td>
+<td>无</td>
+<td>文章标签，一篇文章可以多个标签</td>
+</tr>
+<tr>
+<td>reprintPolicy</td>
+<td>cc_by</td>
+<td>文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>注意:</strong></p>
+<ul>
+<li>如果 img 属性不填写的话，文章特色图会根据文章标题的 hashcode 的值取余，然后选取主题中对应的特色图片，从而达到让所有文章都的特色图各有特色。</li>
+<li>date 的值尽量保证每篇文章是唯一的，因为本主题中 Gitalk 和 Gitment 识别 id 是通过 date 的值来作为唯一标识的。</li>
+<li>如果要对文章设置阅读验证密码的功能，不仅要在 Front-matter 中设置采用了 SHA256 加密的 password 的值，还需要在主题的 _config.yml 中激活了配置。有些在线的 SHA256 加密的地址，可供你使用：<a href="https://tool.oschina.net/encrypt?type=2" target="_blank" rel="noopener">开源中国在线工具</a>、<a href="http://encode.chahuo.com/" target="_blank" rel="noopener">chahuo</a>、<a href="http://tool.chinaz.com/tools/hash.aspx" target="_blank" rel="noopener">站长工具</a>。</li>
+<li>您可以在文章md文件的 front-matter 中指定 reprintPolicy 来给单个文章配置转载规则</li>
+</ul>
+</blockquote>
+<h2 id="4、自定义修改"><a href="#4、自定义修改" class="headerlink" title="4、自定义修改"></a>4、自定义修改</h2><h3 id="4-1-修改主题颜色"><a href="#4-1-修改主题颜色" class="headerlink" title="4.1 修改主题颜色"></a>4.1 修改主题颜色</h3><p>在主题文件的 <strong>/source/css/matery.css</strong> 文件中，搜索 .bg-color 来修改背景颜色：</p>
+<pre><code>/* 整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色. */
+.bg-color {
+    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+}
+/*如果想去掉banner图的颜色渐变效果，请将以下的css属性注释掉或者删除掉即可*/
+@-webkit-keyframes rainbow {
+   /* 动态切换背景颜色. */
+}
+@keyframes rainbow {
+    /* 动态切换背景颜色. */
+}</code></pre><h3 id="4-2-修改-banner-图和文章特色图"><a href="#4-2-修改-banner-图和文章特色图" class="headerlink" title="4.2 修改 banner 图和文章特色图"></a>4.2 修改 banner 图和文章特色图</h3><p>你可以直接在 <strong>/source/medias/banner</strong> 文件夹中更换你喜欢的 banner 图片，主题代码中是每天动态切换一张，只需 7 张即可。如果你会 JavaScript 代码，可以修改成你自己喜欢切换逻辑，如：随机切换等，banner 切换的代码位置在 <strong>/layout/_partial/bg-cover-content.ejs</strong> 文件的 `` 代码中：</p>
+<pre><code>$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');</code></pre><p>在 /source/medias/featureimages 文件夹中默认有 24 张特色图片，你可以再增加或者减少，并需要在 _config.yml 做同步修改。</p>
+<p>如果想改为每小时或者每分钟切换banner图的话，需要将getDay()改为getHours()或者getMinutes()即可。</p>
+<h3 id="4-3-修改网站相关信息"><a href="#4-3-修改网站相关信息" class="headerlink" title="4.3 修改网站相关信息"></a>4.3 修改网站相关信息</h3><p>首先看一个图，如下：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200115115221.png" alt=""></p>
+<p><strong>（1）网站信息的修改</strong></p>
+<p>紧接着放上相关的配置文件信息：</p>
+<pre><code>#这是根目录下的配置文件信息
+title: 过客~励む   #这是网站标题
+subtitle: 励む    #这是网站副标题subtitler
+# 下面两个description,keywords，需要填上，如果想让搜索引擎收录，这个做SEO优化必不可忽视的两个属性
+description: 专注于Web,分享生活,分享知识  #网站描述
+keywords: [HTML, CSS, JavaScript, JQuery, React, Vue.js等]  #网站的关键词
+author: YangAir  #作者，文章版权所显示的
+language: zh-CN  #网站语言，不填写，默认为英文
+timezone:   #时区，可以不填写
+# 这是主题配置文件的相关信息
+# 配置网站favicon和网站LOGO
+# 此处我用的CDN，也可以使用本地文件
+favicon: https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.1/source/favicon.png
+logo: https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.1/source/logo.png
+
+# 网站副标题，打字效果
+# 如果有符号 ‘ ，请在 ’ 前面加上 \
+subtitle: 
+  enable: true
+  loop: true # 是否循环
+  showCursor: true # 是否显示光标
+  startDelay: 300 # 开始延迟
+  typeSpeed: 100 # 打字速度
+  backSpeed: 50 # 删除速度
+  sub1: 志之所向，金石为开，谁能御之？
+  sub2: 花开不是为了花落，而是为了开的更加灿烂。
+  sub3: 没有伞的孩子必须努力奔跑！
+  sub4: 欲望以提升热忱，毅力以磨平高山。
+  sub5: 如果放弃太早，你永远都不知道自己会错过什么。
+  sub6: 没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。</code></pre><p><strong>注意：</strong></p>
+<p>网站打字效果副标题默认有两个，即sub1和sub2，如果想写多个，则需要修改两处地方，首先修改配置文件，如上面所示，在sub1和sub2后面继续添加即可，然后在去主题目录下的layout文件夹下的_partial文件夹，修改bg-cover-content.ejs文件，大约在12行左右，如下面所示：</p>
+<pre><code> &lt;div class="description center-align"&gt;
+     &lt;% if (theme.subtitle.enable) { %&gt;
+         &lt;span id="subtitle"&gt;&lt;/span&gt;
+         &lt;script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"&gt;&lt;/script&gt;
+        &lt;script&gt;
+            var typed = new Typed("#subtitle", {
+                strings: ['&lt;%= theme.subtitle.sub1 %&gt;',
+                          '&lt;%= theme.subtitle.sub2 %&gt;',
+                          '&lt;%= theme.subtitle.sub3 %&gt;',
+                          '&lt;%= theme.subtitle.sub4 %&gt;',
+                          '&lt;%= theme.subtitle.sub5 %&gt;',
+                          '&lt;%= theme.subtitle.sub6 %&gt;'],
+                 startDelay: &lt;%= theme.subtitle.startDelay %&gt;,
+                 typeSpeed: &lt;%= theme.subtitle.typeSpeed %&gt;,
+                 loop: &lt;%= theme.subtitle.loop %&gt;,   
+                 backSpeed: &lt;%= theme.subtitle.backSpeed %&gt;,
+                 showCursor: &lt;%= theme.subtitle.showCursor %&gt;
+              });
+          &lt;/script&gt;
+      &lt;% } else { %&gt;
+            &lt;%= config.description %&gt;
+      &lt;% } %&gt;
+&lt;/div&gt;</code></pre><p><strong>（2）社交链接的修改</strong></p>
+<p>默认的配置信息为：</p>
+<pre><code># 首页 banner 中的第二行个人信息配置，留空即不启用
+socialLink:
+  github:  https://github.com/blinkfox
+  email: 1181062873@qq.com
+  facebook: # https://www.facebook.com/xxx
+  twitter: # https://twitter.com/xxx
+  qq: 1181062873
+  weibo: # https://weibo.com/xxx
+  zhihu: # https://www.zhihu.com/xxx
+  rss: true # true、false</code></pre><p>如果想添加简书，CSDN，掘金，博客园等等，需要在主题配置文件添加相关配置</p>
+<pre><code>socialLink:
+  qq: 1035800145
+  weixin: https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/wechat.png
+  github: https://github.com/Yafine
+  email: mailto:1035800145@qq.com
+  facebook: # https://www.facebook.com/xxx
+  twitter: # https://twitter.com/xxx
+  weibo: # https://weibo.com/xxx
+  zhihu: https://www.zhihu.com/people/xuan-tian-40-64/activities
+  juejin: https://juejin.im/user/5a902053f265da4e7527ae71/activities
+  csdn: https://blog.csdn.net/victoryxa
+  jianshu: https://www.jianshu.com/u/3b3856869772
+  cnblogs: https://www.cnblogs.com/yafine/
+  rss: true # true、false</code></pre><p>其中的weixin我是用的图片链接，会跳转到一个新的标签页，之后还需要修改ejs文件，文件在主题目录下的layout文件夹下的_partial文件夹，修改social-link.ejs，添加相关的配置，我个人添加的配置如下：</p>
+<pre><code>&lt;% if (theme.socialLink.jianshu) { %&gt;
+    &lt;a href="&lt;%= theme.socialLink.jianshu %&gt;" class="tooltipped" target="_blank" data-tooltip="关注我的简书: &lt;%= theme.socialLink.jianshu %&gt;" data-position="top" data-delay="50"&gt;
+        &lt;i class="fab fa-jianshu"&gt;简&lt;/i&gt;
+    &lt;/a&gt;
+&lt;% } %&gt;
+
+&lt;% if (theme.socialLink.csdn) { %&gt;
+    &lt;a href="&lt;%= theme.socialLink.csdn %&gt;" class="tooltipped" target="_blank" data-tooltip="关注我的CSDN: &lt;%= theme.socialLink.csdn %&gt;" data-position="top" data-delay="50"&gt;
+        &lt;i class="fab fa-csdn"&gt;C&lt;/i&gt;
+    &lt;/a&gt;
+&lt;% } %&gt;
+&lt;% if (theme.socialLink.juejin) { %&gt;
+    &lt;a href="&lt;%= theme.socialLink.juejin %&gt;" class="tooltipped" target="_blank" data-tooltip="关注我的掘金: &lt;%= theme.socialLink.juejin %&gt;" data-position="top" data-delay="50"&gt;
+        &lt;i class="fab fa-juejin"&gt;掘&lt;/i&gt;
+    &lt;/a&gt;
+&lt;% } %&gt;
+
+&lt;% if (theme.socialLink.cnblogs) { %&gt;
+    &lt;a href="&lt;%= theme.socialLink.cnblogs %&gt;" class="tooltipped" target="_blank" data-tooltip="关注我的博客园: &lt;%= theme.socialLink.cnblogs %&gt;" data-position="top" data-delay="50"&gt;
+        &lt;i class="fab fa-juejin"&gt;博&lt;/i&gt;
+    &lt;/a&gt;
+&lt;% } %&gt;
+&lt;% if (theme.socialLink.weixin) { %&gt;
+    &lt;a href="&lt;%= theme.socialLink.weixin %&gt;" class="tooltipped" target="_blank" data-tooltip="微信联系我: &lt;%= theme.socialLink.weixin %&gt;" data-position="top" data-delay="50"&gt;
+        &lt;i class="fab fa-weixin"&gt;&lt;/i&gt;
+    &lt;/a&gt;
+&lt;% } %&gt;</code></pre><p>建议QQ也使用二维码，并使用图床链接进行加速。</p>
+<p><strong>（3） 关于我页面添加个人简历</strong><br>打开<strong>theme/matery/layout/about.ejs</strong>文件，大约在13行。有一个``标签，找出其对应结尾的标签，大约在61行左右，然后在新增如下代码：</p>
+<pre><code>&lt;div class="card"&gt;
+     &lt;div class="card-content"&gt;
+         &lt;div class="card-content article-card-content"&gt;
+             &lt;div class="title center-align" data-aos="zoom-in-up"&gt;
+                 &lt;i class="fa fa-address-book"&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;%- __('个人简历') %&gt;
+              &lt;/div&gt;
+                 &lt;div id="articleContent" data-aos="fade-up"&gt;
+                     &lt;%- page.content %&gt;
+                 &lt;/div&gt;
+           &lt;/div&gt;
+      &lt;/div&gt;
+&lt;/div&gt;</code></pre><p>注意粘贴的位置和空格要正确，这里的位置随你自己设置，你也可以把简历作为第一个card，然后<strong>/source/about/index.md</strong>下面写上你的简历了（就像写博客一样）。</p>
+<blockquote>
+<p>出现过简历页面比关于我页面宽特别多的情况出现，自己调整一下粘贴缩进位置能够解决。</p>
+</blockquote>
+<h3 id="4-4-添加评论系统"><a href="#4-4-添加评论系统" class="headerlink" title="4.4 添加评论系统"></a>4.4 添加评论系统</h3><p>经过试用，加载快而且访问简单的评论系统，我认为是：Valine评论系统</p>
+<p>Valine官方文档： <a href="https://valine.js.org/" target="_blank" rel="noopener">https://valine.js.org/</a></p>
+<p>需要先注册 LeanCloud，经过登录或者注册之后再登录，就会进入如下的页面：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200115145855.png" alt=""></p>
+<p>创建应用完成后，会出现如下页面，然后点击设置</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200115150319.png" alt=""></p>
+<p>会出现下面的页面，将其中APPID和APPKey复制，添加到配置文件中。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200115150641.png" alt=""></p>
+<pre><code># The configuration of the Valine comment module is not activated by default.
+# To use it, activate the configuration item and set appId and appKey.
+# Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
+valine:
+  enable: false  # true即为开启评论系统
+  appId:   #此处填写你的appid
+  appKey:  #此处填写你的appkey
+  notify: false
+  verify: false
+  visitor: true
+  avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  pageSize: 10
+  placeholder: 'just go go' # Comment Box placeholder
+  background:  https://cdn.jsdelivr.net/gh/Yafine/cdn@3.1.1/social/comment_bg.png</code></pre><p>然后执行相关部署命令，查看效果即可。</p>
+<h1 id="六、绑定域名及访问优化"><a href="#六、绑定域名及访问优化" class="headerlink" title="六、绑定域名及访问优化"></a>六、绑定域名及访问优化</h1><h2 id="1、绑定域名"><a href="#1、绑定域名" class="headerlink" title="1、绑定域名"></a>1、绑定域名</h2><p>购买域名。建议腾讯云（dnspod）购买，优惠力度大，加上腾讯收购了dnspod后，直接接入了dnspod的解析服务，较方便。</p>
+<p>进入云解析列表，添加记录值</p>
+<p><img src="https://p.pstatp.com/origin/ff0c000216baa55d3c11" alt=""></p>
+<p>因为GitHub Pages对应多个IP，且在不断的动态变化，因此建议直接使用cname记录，将域名指向page的域名地址。</p>
+<blockquote>
+<p>注意：在这之前需要在站点根目录的source目录下，用记事本新建一个 CNAME.txt文件，里面写入自己的域名，然后保存并删除txt文件名后缀，在进行如下的步骤。这样到最后当你在地址栏输入xxx.github.io时，才会自动跳转到你的域名。</p>
+</blockquote>
+<p>然后在你的GitHub仓库的设置里找到这个页面，将你的域名填到Custom domain选项下，强制开启https，即当你在地址栏输入域名，会自动识别域名为https开头。然后进行保存。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191205230514.png" alt=""></p>
+<h2 id="2、自建GitHub图床及图片CDN加速"><a href="#2、自建GitHub图床及图片CDN加速" class="headerlink" title="2、自建GitHub图床及图片CDN加速"></a>2、自建GitHub图床及图片CDN加速</h2><p>放在Github的资源在国内加载速度比较慢，因此需要使用CDN加速来优化网站打开速度，jsDelivr + Github便是免费且好用的CDN，非常适合博客网站使用。</p>
+<p><strong>（1）首先新建GitHub仓库</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191221175839.png" alt=""></p>
+<p><strong>（2）上传图片至仓库</strong></p>
+<p>本地新建一个文件夹，文件夹名称自定义，然后进入文件夹，在文件夹内依次执行下面的命令：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191221180643.png" alt=""></p>
+<pre><code>git init
+git remote add origin 你新建仓库的HTTP或者SSH地址链接
+git pull origin master #将仓库拉取到本地文件夹</code></pre><p>接着把你要上传的文件放进这个文件夹内（可以多层目录）</p>
+<p>建议新建一个 img文件夹，用于储存文章里的图片，另外把 medias文件夹也复制进来（D:\HZG_Blog\Hexo\themes\hexo-theme-matery\source\medias）</p>
+<p>然后再依次执行下面的命令：</p>
+<pre><code>git add .    #(.表示所有的)
+git commit -m '添加文件内容描述' 
+git push origin master   #将本地仓库文件推送到GitHub新建的仓库</code></pre><p>然后去GitHub仓库查看效果即可。</p>
+<blockquote>
+<p>原作者是利用Git命令，将图片仓库同步到本地，通过Git同步上传图片，或者用picgo上传图片，但有两个问题：</p>
+<ul>
+<li><p>上传速度慢</p>
+</li>
+<li><p>上传容易出错，尤其是图片稍微大一些的时候</p>
+</li>
+</ul>
+<p>因此，我建议后续维护的时候，直接在GitHub仓库网页，利用上传文件的功能，批量上传图片。</p>
+</blockquote>
+<p><strong>（3）版本发布及CDN加速</strong></p>
+<p>点击release，进行版本的发布。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191221183016.png" alt=""></p>
+<p>自定义发布版本号，添加标题和描述等</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191221183244.png" alt=""></p>
+<p>通过jsdelivr引用资源进行加速</p>
+<p>使用方法： <a href="https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径</a></p>
+<p>例如：<a href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.1.1/source/medias/avatar.jpg" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/Yafine/cdn@3.1.1/source/medias/avatar.jpg</a></p>
+<p><strong>注意：版本号不是必需的，是为了区分新旧资源，如果不使用版本号，将会直接引用最新资源。</strong></p>
+<p><strong>根目录和主题目录下的 _config.yml 文件里的图片地址也要修改为CDN加速后的链接。</strong></p>
+<h2 id="3、全站CDN加速访问"><a href="#3、全站CDN加速访问" class="headerlink" title="3、全站CDN加速访问"></a>3、全站CDN加速访问</h2><blockquote>
+<p>CDN的全称是Content Delivery Network，即内容分发网络。CDN是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存储和分发技术。</p>
+</blockquote>
+<p>这里的CDN加速指的是全站CDN加速，是针对整个网页所有元素进行加速，和图片CDN加速有所区别。</p>
+<p>本站CDN加速由又拍云（ <a href="https://www.upyun.com/" target="_blank" rel="noopener">https://www.upyun.com/</a> ）支持。感谢又拍云联盟提供的免费CDN加速服务。</p>
+<p>活动网址：<a href="https://www.upyun.com/league" target="_blank" rel="noopener">https://www.upyun.com/league</a></p>
+<p><img src="https://p.pstatp.com/origin/fed60001c930a0583338" alt=""></p>
+<h3 id="3-1-域名备案"><a href="#3-1-域名备案" class="headerlink" title="3.1 域名备案"></a>3.1 域名备案</h3><p>按照国家相关法律法规要求，主机在国内的网站都要备案，又拍云CDN加速需要缓存部分数据在国内主机，所以，要求用户使用CDN时，域名需要备案。</p>
+<p>在腾讯云购买的域名，可直接在腾讯云申请备案，但需要将备案域名指向腾讯云服务器IP地址，可设置不使用的二级域名指向腾讯云服务器IP。</p>
+<p>详细备案流程略，见官方帮助文档。</p>
+<h3 id="3-2-域名SSL证书申请"><a href="#3-2-域名SSL证书申请" class="headerlink" title="3.2 域名SSL证书申请"></a>3.2 域名SSL证书申请</h3><p>SSL是网站启用HTTPS加密的必要条件，可在 <a href="https://freessl.cn/" target="_blank" rel="noopener">https://freessl.cn/</a> 申请免费的域名证书，建议申请亚洲诚信的，有效期长一些，减少维护成本。记得申请泛域名的域名证书。具体申请流程，略。</p>
+<blockquote>
+<p>注意：如果GitHub Pages不绑定域名的话，可以不用申请域名证书。GitHub Pages提供了<strong>Enforce  HTTPS</strong>的选项，开启后，则对网页强制加密。</p>
+</blockquote>
+<p><img src="https://p.pstatp.com/origin/ffb7000111ae583518c4" alt=""></p>
+<h3 id="3-3-域名绑定CDN服务"><a href="#3-3-域名绑定CDN服务" class="headerlink" title="3.3 域名绑定CDN服务"></a>3.3 域名绑定CDN服务</h3><p><strong>（1）创建服务</strong></p>
+<p>进入又拍云控制台，选择CDN，创建服务，输入被加速的域名，类型：全站加速</p>
+<p><img src="https://p.pstatp.com/origin/fed0000157c712192871" alt=""></p>
+<p><strong>（2）对回源设置进行配置</strong></p>
+<p>在GitHub Pages的Setting里，打开<strong>Enforce  HTTPS</strong>的选项，等待生效后，继续操作。</p>
+<p>在又拍云的源站设置里，选择回源协议为协议跟随，源站地址为 用户名.github.io，端口为443，加速区域为：全球加速。也可设置为国内加速，将国外访问的DNS解析到GitHub Pages即可。</p>
+<p><img src="https://p.pstatp.com/origin/ff980000daea49d9a0fd" alt=""></p>
+<p><strong>（3）HTTPS设置</strong></p>
+<p>在HTTPS设置里，上传自有证书，启用强制HTTPS访问即可。</p>
+<p><img src="https://p.pstatp.com/origin/ffc9000119cd0193dedc" alt=""></p>
+<p><strong>（4）修改DNS解析</strong></p>
+<p>CDN服务创建完毕后，又拍云会提供一个CNAME值，复制这个值后，回到腾讯云的DNS解析中，将域名的解析修改，将CNAME解析的记录值修订为又拍云提供的值，即可开启又拍云CDN加速。</p>
+<p>值得注意的是，默认线路为境内境外访问都解析到又拍云CDN，建议将又拍云的加速区域设置为全球加速。如果分线路加速的话，可以考虑将境外访问的CNAME解析回GitHub Pages（用户名.github.io）。</p>
+<p><img src="https://p.pstatp.com/origin/ffab0001925107ac1379" alt=""></p>
+<p>设置完毕后，就可以快速访问网页啦！</p>
+<p><strong>（5）访问速度检测</strong></p>
+<p>利用<a href="http://ping.chinaz.com/" target="_blank" rel="noopener">站长工具</a>进行ping测速，可以看到，经过又拍云CDN加速后，访问速度有了极大的提升，显示的IP也不是真实IP，而是又拍云的CDN加速节点IP。</p>
+<p><img src="https://p.pstatp.com/origin/fe9400014ca87b1fef39" alt=""></p>
+<blockquote>
+<p>注：图中云南测速超时是由于测速赞助商自身问题，非CDN服务故障导致。</p>
+</blockquote>
+<p><strong>（6）HTTPS安全性检测</strong></p>
+<p>在<a href="https://www.ssllabs.com/ssltest" target="_blank" rel="noopener">SSLLABS</a>进行网站的SSL安全性检测，在又拍云HTTPS中，将最低TLS版本设置为TLS v1.2，进行测试，成绩为A+，非常安全。</p>
+<p><img src="https://p.pstatp.com/origin/ff9d000156d768870b18" alt=""></p>
+<h1 id="七、感谢"><a href="#七、感谢" class="headerlink" title="七、感谢"></a>七、感谢</h1><p>本文大部分内容来自yafine的教程（<a href="https://yafine-blog.cn/posts/4ab2.html）和" target="_blank" rel="noopener">https://yafine-blog.cn/posts/4ab2.html）和</a> TRHX • 鲍勃的教程（<a href="https://blog.csdn.net/qq_36759224/article/details/82121420）。" target="_blank" rel="noopener">https://blog.csdn.net/qq_36759224/article/details/82121420）。</a></p>
+<p>感谢大佬们的贡献和分享！</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://hzghr.github.io" rel="external nofollow noreferrer">黄志刚</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://hzghr.github.io/2020/02/12/%E4%BA%92%E8%81%94%E7%BD%91%E6%95%99%E7%A8%8B%20-%20%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2%E5%8F%8A%E4%BC%98%E5%8C%96/">https://hzghr.github.io/2020/02/12/%E4%BA%92%E8%81%94%E7%BD%91%E6%95%99%E7%A8%8B%20-%20%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2%E5%8F%8A%E4%BC%98%E5%8C%96/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="https://hzghr.github.io" target="_blank">黄志刚</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/">
+                                    <span class="chip bg-color">Hexo静态网页</span>
+                                </a>
+                            
+                                <a href="/tags/%E4%BA%92%E8%81%94%E7%BD%91%E6%95%99%E7%A8%8B/">
+                                    <span class="chip bg-color">互联网教程</span>
+                                </a>
+                            
+                                <a href="/tags/CDN/">
+                                    <span class="chip bg-color">CDN</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'iU4KdP07mcrNnPm7Me2lsdag-9Nh9j0Va',
+        appKey: '45tbXNRF3aIj4zSDLislMTkt',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go'
+    });
+</script>
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2020/02/12/%E4%BA%92%E8%81%94%E7%BD%91%E6%95%99%E7%A8%8B%20-%20%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2%E5%8F%8A%E4%BC%98%E5%8C%96/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/featureimages/19.jpg" class="responsive-img" alt="利用Hexo搭建网页及CDN优化">
+                        
+                        <span class="card-title">利用Hexo搭建网页及CDN优化</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            利用hexo搭建静态网页及CDN优化访问速度
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-12
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E4%BA%92%E8%81%94%E7%BD%91%E6%95%99%E7%A8%8B/" class="post-category">
+                                    互联网教程
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Hexo%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/">
+                        <span class="chip bg-color">Hexo静态网页</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%BA%92%E8%81%94%E7%BD%91%E6%95%99%E7%A8%8B/">
+                        <span class="chip bg-color">互联网教程</span>
+                    </a>
+                    
+                    <a href="/tags/CDN/">
+                        <span class="chip bg-color">CDN</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/02/02/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/featureimages/16.jpg" class="responsive-img" alt="黄志刚个人简历（附PDF版下载）">
+                        
+                        <span class="card-title">黄志刚个人简历（附PDF版下载）</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            黄志刚的个人简历Markdown版，文末附PDF版下载地址
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/" class="post-category">
+                                    个人简历
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/">
+                        <span class="chip bg-color">个人简历</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+    
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h1,h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1,h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+    <footer class="page-footer bg-color">
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="https://hzghr.github.io" target="_blank">Huang ZhiGang</a>
+            &nbsp;|&nbsp;
+			<a href="https://www.upyun.com/"   target="_blank"  style="border:0">
+                            <img src="/medias/upyun_logo.png" style="width: 70px; display: inline; vertical-align: middle;">
+			</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">22k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2019";
+                    var startMonth = "6";
+                    var startDate = "28";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+            <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
+                <a href="http://beian.miit.gov.cn" target="_blank">蜀ICP备20006094</a>
+            </span>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/HZGHR" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:huangzhiganghr@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/social/qq.jpg" class="tooltipped" target="_blank" data-tooltip="扫码添加我的QQ" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/social/wechat.jpg" class="tooltipped" target="_blank" data-tooltip="扫码添加我的微信: https://cdn.jsdelivr.net/gh/HZGHR/cdn/medias/social/wechat.jpg" data-position="top" data-delay="50">
+        <i class="fab fa-weixin"></i>
+    </a>
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i["DaoVoiceObject"] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            a.charset = "utf-8";
+            m.parentNode.insertBefore(a, m)
+        })(window, document, "script", ('https:' == document.location.protocol ? 'https:' : 'http:') +
+            "//widget.daovoice.io/widget/6984b559.js", "daovoice")
+        daovoice('init', {
+            app_id: "43734443"
+        });
+        daovoice('update');
+    </script>
+    
+
+    
+
+    
+
+    
+    
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

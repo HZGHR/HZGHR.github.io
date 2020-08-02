@@ -136,31 +136,6 @@
     
     <entry>
       <title>工作模板之安全告知书</title>
-      <link href="/2019/11/11/%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96%20-%20%E7%8E%AF%E7%90%83%E9%A2%82/"/>
-      <url>/2019/11/11/%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96%20-%20%E7%8E%AF%E7%90%83%E9%A2%82/</url>
-      
-        <content type="html"><![CDATA[<blockquote></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工作模板 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 工作模板 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>工作模板之安全告知书</title>
       <link href="/2019/11/11/%E5%B7%A5%E4%BD%9C%E6%A8%A1%E6%9D%BF%20-%20%E5%AE%89%E5%85%A8%E5%91%8A%E7%9F%A5%E4%B9%A6/"/>
       <url>/2019/11/11/%E5%B7%A5%E4%BD%9C%E6%A8%A1%E6%9D%BF%20-%20%E5%AE%89%E5%85%A8%E5%91%8A%E7%9F%A5%E4%B9%A6/</url>
       
